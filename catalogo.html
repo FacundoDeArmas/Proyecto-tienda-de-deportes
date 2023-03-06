@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Macri</title>
+        <link rel="stylesheet" href="estilos.css">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+        <link rel="shortcut icon" href="img/favicon.jpg" />
+    
+    </head>
+<body>
+    <div class="encabezado">
+        <div class="cabezalOpacidad">
+            <div class="cabezal">
+                <header>
+                    <a href="index.html"><img src="img/iconblanco.png" alt="logotipo macri"></a>
+                </header>
+
+                <!-- barra de navegacion-->
+                <nav>
+                    <ul>
+                        <li class="liActivo"><a href="index.html">Portada</a></li>
+                        <li><a href="catalogo.html">Catalogo</a></li>
+                        <li><a href="error.html">Ingresar</a></li>
+                    </ul>
+                </nav>
+
+
+                <div class="navHeader">
+                    <div class="iconos">
+                        <a href="catalogo.html#filtroImg">
+                            <img src="img/lupa.png" alt="icono de lupa"></a>
+                        <a href="error.html">
+                            <img src="img/persona.png" alt="icono de persona"></a>
+                            <img src="img/carrito.png" id ="verCarrito" alt="icono de carrito"> <span id="cantidadcarrito" class="cantidadcarrito"></span> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <article class="presentacionUno presentacion bigEncabezado">
+            <h1>Macri</h1>
+            <p>Aprovecha para comprar todos nuestros productos</p>
+        </article>
+
+        <!-- cierra encabezado -->
+    </div>
+
+    <!-- contenido del carrito-->
+    <div id="shopContent" class="shop-content"></div>
+
+    <!--modal container-->
+
+    <div id="modal-container" class="modal-container"></div>
+    <footer>
+
+        <div class="logoFooter">
+            <img src="img/iconblanco.png" alt="logotipo Macri">
+        </div>
+        <div class="textoFooter">
+            <p>Todos los derechos reservados ©</p>
+        </div>
+        <div class="redesFooter">
+
+            <a href="https://www.instagram.com/macrisportlife/?hl=es/" target="_blank" title="Ir a web de Instagram">
+                <div class="redes1"></div>
+            </a>
+
+            <a href="https://www.facebook.com/zapateriamacri" target="_blank" title="Ir a web de Facebook">
+                <div class="redes2"></div>
+            </a>
+
+            <a href="https://twitter.com/MacriSportC" target="_blank" title="Ir a web de Twitter">
+                <div class="redes3"></div>
+            </a>
+
+
+        </div>
+
+    </footer>
+    
+</body>
+<script src="products.js"></script>
+<script src="app.js"></script>
+<script src="carrito.js"></script>
+</html>
